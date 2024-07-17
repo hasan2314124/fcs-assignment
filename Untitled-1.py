@@ -25,6 +25,15 @@ self.cities ={
             "saida":["sour","jeye"],
             "byblos":["jounieh","amchit"],
             }
+def run(self):
+    print=("hello Welcome to the web delivery system ")
+    while True:
+            print("\nMain Menu:")
+            print("1. Drivers Menu")
+            print("2. Cities Menu")
+            print("3. Exit")
+            choice = input("Enter your choice: ")
+            
 
         
 
