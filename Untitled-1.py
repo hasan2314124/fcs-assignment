@@ -8,4 +8,11 @@ class wedeliversystem:
          "ID005": {"name": "lewis hamilton","start_city":"Byblos"},
             
         }
+        self.cities ={
+            "beirut":["saida","byblos"],
+            "tripoli":["beirut","jounieh"],
+            "zahle":["chtoura","saoufar"],
+            "saida":["sour","jeye"],
+            "byblos":["jounieh","amchit"],
+            }
         
