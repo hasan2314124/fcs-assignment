@@ -28,11 +28,19 @@ self.cities ={
 def run(self):
     print=("hello Welcome to the web delivery system ")
     while True:
-            print("\nMain Menu:")
-            print("1. Drivers Menu")
-            print("2. Cities Menu")
-            print("3. Exit")
-            choice = input("Enter your choice: ")
+            print("1 Drivers Menu")
+            print("2 Cities Menu")
+            print("3 Exit")
+            choice = input("Enter your choice here ")
+            if choice == '1':
+                self.add_driver()
+            elif choice == '2':
+                self.view_drivers()
+            elif choice == '3':
+                print("Going back to main menu.")
+                break
+            else:
+                print("wrong choice Please enter 1, 2, or 3")
             
 
         
